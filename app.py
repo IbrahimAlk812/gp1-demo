@@ -9,6 +9,7 @@ bus_status = {
     "capacity": "Not Full"
 }
 
+
 @app.route("/")
 def home():
     return jsonify({
